@@ -1,0 +1,58 @@
+#game {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.dot {
+  height: 4px;
+  width: 4px;
+  background-color: #000;
+}
+
+.box {
+  height: 25px;
+  width: 25px;
+}
+
+.horizContainer {
+  height: 4px;
+  width: 25px;
+  border: 2px;
+}
+
+.vertContainer {
+  height: 25px;
+  width: 4px;
+  border: 2px;
+}
+
+#board {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 50px;
+  margin: 10px
+}
+#winner{
+  font-size: 25px;
+}
+label{
+  display: flex;
+  flex-direction: center;
+  align-items: center;
+  justify-content: center;
+}
+
+#header {
+  padding:10px 50px;
+  margin:10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
